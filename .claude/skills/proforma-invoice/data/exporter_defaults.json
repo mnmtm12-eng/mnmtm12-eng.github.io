@@ -1,0 +1,16 @@
+{
+  "_note": "Exporter block printed on every proforma. Replace EDIT values once; scripts read this file.",
+  "company": "EDIT: legal exporter name (e.g. TLT Celik Kapi ... or Mohammad's Sahis Sirketi)",
+  "address": "EDIT: full address, Kayseri, Turkiye",
+  "phone": "+90 501 549 6017",
+  "email": "EDIT: email",
+  "tax_office_vkn": "EDIT: Vergi Dairesi / VKN",
+  "bank": {
+    "beneficiary": "EDIT: account holder",
+    "bank_name": "EDIT: bank",
+    "branch": "EDIT: branch",
+    "swift": "EDIT: SWIFT",
+    "iban_usd": "EDIT: TR.. (USD)",
+    "iban_eur": ""
+  }
+}

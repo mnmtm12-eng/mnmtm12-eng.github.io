@@ -1,0 +1,15 @@
+{
+  "_note": "Claude edits statuses here. status: todo|in_progress|done|blocked",
+  "company": "Sahis Sirketi — Mohammad Nima, Kayseri",
+  "steps": [
+    {"id": 1, "name": "Documents: passport + translation, ikamet, vergi no, address proof", "status": "todo", "date": "", "note": ""},
+    {"id": 2, "name": "Hire Mali Musavir (agree monthly fee)", "status": "todo", "date": "", "note": ""},
+    {"id": 3, "name": "Company registration -> vergi levhasi", "status": "todo", "date": "", "note": ""},
+    {"id": 4, "name": "Imza beyannamesi (notary)", "status": "todo", "date": "", "note": ""},
+    {"id": 5, "name": "Business bank account (TRY + USD)", "status": "todo", "date": "", "note": ""},
+    {"id": 6, "name": "e-Fatura / e-Arsiv activation", "status": "todo", "date": "", "note": ""},
+    {"id": 7, "name": "Bag-Kur registration (check SGK interaction)", "status": "todo", "date": "", "note": ""},
+    {"id": 8, "name": "Ihracatci Birligi (OAIB) membership + customs broker", "status": "todo", "date": "", "note": ""},
+    {"id": 9, "name": "Trademark: MN STEEL DOOR / SARH (optional, later)", "status": "todo", "date": "", "note": ""}
+  ]
+}

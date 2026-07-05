@@ -1,0 +1,59 @@
+{
+  "_edit_note": "Single source of truth for quotes. Values marked EDIT are defaults Mohammad should verify/adjust. doors_per_container values come from his door_calculator.py.",
+  "defaults": {
+    "brand": "MN STEEL DOOR",
+    "contact": "Mohammad Nima | Kayseri, Turkiye | WhatsApp +90 501 549 6017",
+    "container": "40HC",
+    "incoterm": "EXW Kayseri, Turkiye",
+    "deposit_pct": 30,
+    "validity_days": 15,
+    "lead_time_days": "25-35",
+    "currency": "USD"
+  },
+  "base_spec": [
+    "Door leaf: galvanized steel, 1.2 mm double sheet (EDIT thickness)",
+    "Frame: 1.5 mm steel frame with adjustable casing (EDIT)",
+    "Surface: laminox / laminate finish per catalogue (EDIT finish options)",
+    "Lock: multi-point security lock + cylinder (EDIT brand/points)",
+    "Hinges: 3x heavy-duty adjustable hinges (EDIT)",
+    "Accessories: peephole, handle set, threshold, rubber seals (EDIT)",
+    "Every shipment personally quality-inspected before loading"
+  ],
+  "countries": {
+    "egypt": {
+      "name_ar": "مصر",
+      "doors_per_container": 167,
+      "common_sizes_cm": ["90x205", "100x210"],
+      "extra_spec": [],
+      "note": "Highest packing density; confirm size mix before container math."
+    },
+    "jordan": {
+      "name_ar": "الأردن",
+      "doors_per_container": 120,
+      "common_sizes_cm": ["100x210", "120x215"],
+      "extra_spec": [],
+      "note": ""
+    },
+    "iraq": {
+      "name_ar": "العراق",
+      "doors_per_container": 100,
+      "common_sizes_cm": ["custom"],
+      "extra_spec": ["Custom / oversize dimensions available (priced per door; m2 noted in description)"],
+      "note": "Custom sizes common; historically priced per m2."
+    },
+    "libya": {
+      "name_ar": "ليبيا",
+      "doors_per_container": 100,
+      "common_sizes_cm": ["90x205", "100x210"],
+      "extra_spec": [],
+      "note": ""
+    },
+    "morocco": {
+      "name_ar": "المغرب",
+      "doors_per_container": 100,
+      "common_sizes_cm": ["90x205"],
+      "extra_spec": ["French-style porte blindee finishes popular (EDIT)"],
+      "note": "Emerging market; quotes may also go out in French."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_note": "Copy to care_log.json (gitignored) before first use. Private — never committed.",
+  "patient": "Mother",
+  "hospital": {"name": "EDIT", "department": "Onkoloji", "doctor": "EDIT", "phone": ""},
+  "appointments": [
+    {"date": "", "purpose": "kontrol", "status": "upcoming", "outcome": ""}
+  ],
+  "medications": [
+    {"name": "", "dose": "", "timing": "", "refill_by": ""}
+  ],
+  "documents": [
+    {"name": "Epikriz (medical report)", "where": "", "note": ""}
+  ],
+  "questions": []
+}

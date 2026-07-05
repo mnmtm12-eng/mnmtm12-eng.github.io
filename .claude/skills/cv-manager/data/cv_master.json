@@ -1,0 +1,25 @@
+{
+  "_note": "Master profile — update here first, generate CVs from this.",
+  "name": "Mohammad Nima / محمد نعمة / Muhammed Nima",
+  "location": "Kayseri, Turkiye",
+  "contact": {"whatsapp": "+90 501 549 6017", "email": "EDIT", "instagram": "EDIT"},
+  "profile": "Steel-door export sales agent connecting Turkish factories to Arab and African markets; brings his own client portfolio.",
+  "experience": [
+    {
+      "role": "Export Sales Agent",
+      "company": "TLT Steel Doors, Kayseri",
+      "period": "EDIT start — present",
+      "highlights": [
+        "~10.5 containers/month personal sales (Egypt 6, Jordan 2, Iraq 0.5 and growing)",
+        "Built and owns the client portfolio by written contract",
+        "Personal quality inspection of every shipment before loading",
+        "Markets in development: Libya, Morocco, West Africa"
+      ]
+    }
+  ],
+  "other_ventures": [
+    {"name": "SARH — Maison de Parfum", "desc": "Founder; oriental luxury perfume brand (Najd, Jamr, Irth)"}
+  ],
+  "languages": {"arabic": "native", "turkish": "professional working", "english": "working"},
+  "education": [{"item": "EDIT", "year": ""}]
+}

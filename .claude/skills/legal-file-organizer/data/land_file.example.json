@@ -1,0 +1,20 @@
+{
+  "_note": "Copy to land_file.json (gitignored) before first use.",
+  "case": "Family land — [village/district], Syria",
+  "documents": [
+    {"name": "Tabu (title deed)", "type": "طابو", "holder": "", "status": "missing", "note": ""}
+  ],
+  "deadlines": [
+    {"what": "", "date": "", "note": ""}
+  ],
+  "events": [
+    {"date": "", "what": "", "source": ""}
+  ],
+  "contacts": [
+    {"role": "lawyer (Syria)", "name": "", "phone": "", "note": ""},
+    {"role": "local relative", "name": "", "phone": "", "note": ""}
+  ],
+  "next_steps": [
+    {"step": "Inventory: list every paper the family holds and who physically has it", "status": "current"}
+  ]
+}

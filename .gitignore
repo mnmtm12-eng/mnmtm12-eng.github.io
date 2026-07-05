@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 *.pid
 runner.log
+
+# Private skill data — never push to the public repo
+.claude/skills/legal-file-organizer/data/land_file.json
+.claude/skills/health-logistics/data/care_log.json

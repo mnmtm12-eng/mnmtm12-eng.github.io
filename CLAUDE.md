@@ -64,6 +64,15 @@ The other tools read these same files: `dashboard.py` and `whatsapp_bot.py` read
 
 Keep the perfume business (Sarh site) and the steel-door business separate — that separation is deliberate (see `strategy.md`).
 
+### Skill library (`.claude/skills/`)
+
+Sixteen personal skills automate the owner's recurring work (quotes, commission ledger, proforma invoices, shipment tracking, factory vetting, Turkish/Arabic outreach, company setup, legal file, SARH perfume ops, CV, health logistics, daily briefing). Conventions:
+
+- Each skill = `SKILL.md` (+ optional `scripts/` and `data/`). Scripts are plain Python 3 using only the deps in `requirements.txt`; run them with `python3` from the repo root.
+- Tracker state lives in each skill's `data/*.json` (script- or Claude-managed); generated xlsx files (`commission_ledger.xlsx`, `shipments.xlsx`, `quotes/`, `invoices/`) are rebuilt from JSON — edit the JSON, not the xlsx.
+- `legal-file-organizer` and `health-logistics` real data files are **gitignored** (public repo); only `.example.json` templates are committed.
+- Respond to the owner in Arabic; keep skill/code content in English.
+
 ### Reference/data documents
 
 `strategy.md` (marketing plan), `email_drafts.md`, `contacts.csv`, `emails_organized.csv`, and the two `.xlsx` proforma files are the owner's business documents, not code. Don't reformat or "clean up" their content unless asked.
