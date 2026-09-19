@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>مكة — نظام إدارة مصنع الأبواب</title>
+<meta name="description" content="مكة — نظام متكامل لإدارة مصنع الأبواب: العمال، العملاء، الموردون، المخزون، الفواتير والتقارير. واجهة المدينة.">
+<meta name="theme-color" content="#101828">
+
+<!-- PWA: يعمل كتطبيق مثبَّت على ويندوز وأندرويد وآيفون -->
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icons/icon-192.png">
+<link rel="apple-touch-icon" href="./icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="مكة">
+
+<!-- خط عربي حديث (مع بديل نظامي يعمل بدون إنترنت) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+<!--
+  ══════════════════════════════════════════════════════════════
+  مكة — نظام إدارة مصنع الأبواب | الواجهة: «المدينة»
+  ══════════════════════════════════════════════════════════════
+  البنية المعمارية (فصل الطبقات):
+    • طبقة العرض  : js/features/*  + js/ui/components.js  — الشاشات والمكوّنات فقط، لا تلمس قاعدة البيانات مباشرة.
+    • طبقة المنطق : js/core/repo.js + attendance.js + ai.js — قواعد العمل (الرواتب، الفواتير، المخزون، الحضور).
+    • طبقة البيانات: js/core/db.js — IndexedDB محلية على الجهاز (تعمل بدون إنترنت).
+    • التنقّل     : js/app.js — موجّه (Router) بالهاش قابل للتوسّع بإضافة مسار جديد لأي قسم مستقبلي.
+    • الأحداث     : js/core/bus.js — ناقل أحداث يحدّث لوحة التحكم لحظياً بعد أي عملية.
+  التطبيق يُحمَّل كاملاً داخل #app بواسطة الموجّه.
+-->
+<div id="app" aria-live="polite"></div>
+
+<!-- منطقة الطباعة: تُملأ عند طباعة فاتورة أو كشف حساب أو تقرير (PDF عبر الطباعة) -->
+<div id="print-root"></div>
+
+<noscript><p style="text-align:center;padding:40px">هذا النظام يحتاج تفعيل JavaScript.</p></noscript>
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>
